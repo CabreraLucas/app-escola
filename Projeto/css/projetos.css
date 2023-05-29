@@ -100,3 +100,27 @@ a, button{
     color: blue;
     background-color: white;
 }
+
+
+.button{
+    background-color: #0703B6;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.button:hover{
+    color: blue;
+    background-color: white;
+}
+
+a, button{
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #0703B6;
+    display:flex;
+    justify-content: space-around;
+}
