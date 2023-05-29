@@ -1,0 +1,102 @@
+.card-pascoa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 20px;
+    background-image: url(../image/Pascoa.webp);
+    background-size: 170%;
+    width: 200px;
+    height: 220px;
+}
+.back-web{
+    background-image: url(../image/background-01\ 1.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 77vh;
+}
+.table{
+    background-color: rgba(255, 255, 255, 0.651);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 40vh;
+    position: absolute;
+    left: 48vh;
+    top: 30%;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+.card-title:hover{
+    color: #9b014e;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0703B6;
+    color: black;
+
+}
+
+.nav-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.link:hover{
+    color: rgb(255, 0, 0);
+}
+
+.blue{
+    background-color: blue;
+}
+
+a, button{
+    text-decoration: none;
+}
+
+.button1{
+    background-color: #4240e4;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 120px;
+    height: 50px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: none;
+}
+
+.button1:hover{
+    color: blue;
+    background-color: white;
+}
