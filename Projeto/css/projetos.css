@@ -78,6 +78,12 @@ a, button{
     text-decoration: none;
 }
 
+.footer{
+    background-color: #0703B6;
+    display:flex;
+    justify-content: space-around;
+}
+
 .button1{
     background-color: #4240e4;
     border: none;
@@ -115,12 +121,4 @@ a, button{
     background-color: white;
 }
 
-a, button{
-    text-decoration: none;
-}
 
-.footer{
-    background-color: #0703B6;
-    display:flex;
-    justify-content: space-around;
-}
